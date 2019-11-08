@@ -1,0 +1,33 @@
+{
+  "name": "ju-schedule-to-ical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimonitrome/JU-schedule-to-ical.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zimonitrome/JU-schedule-to-ical/issues"
+  },
+  "homepage": "https://github.com/zimonitrome/JU-schedule-to-ical#readme",
+  "dependencies": {
+    "@types/node": "^12.12.6",
+    "@types/qs": "^6.9.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "ical-generator": "^1.8.2",
+    "moment": "^2.24.0",
+    "qs": "^6.9.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  }
+}
